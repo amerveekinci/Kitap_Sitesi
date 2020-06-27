@@ -55,8 +55,8 @@
                                 <img src="img/kitap1.jpg">
                             </div>
                             <div class="itemText">
-                                <h3>Başlık</h3>
-                                <p>paragraf</p>
+                                <h3>Okuma Kitapları</h3>
+                                <p>İstediğiniz alanda okuma kitabı bulabilirsiniz.İster sıfır ister ikinci el.</p>
                                 <a href="#" class="btnDetails">Daha Çok Detay</a>
                             </div>
                         </div>
@@ -67,8 +67,8 @@
                                 <img src="img/kitap2.jpg">
                             </div>
                             <div class="itemText">
-                                <h3>Başlık</h3>
-                                <p>paragraf</p>
+                                <h3>Ders Kitapları</h3>
+                                <p>Ders Kitaplarına çok fazla para vermeye artık gerek yok.Hem sıfır hem de 2.el kitapları bulabilirsiniz.</p>
                                 <a href="#" class="btnDetails">Daha Çok Detay</a>
                             </div>
                         </div>
@@ -79,8 +79,8 @@
                                 <img src="img/kitap3.jpg">
                             </div>
                             <div class="itemText">
-                                <h3>Başlık</h3>
-                                <p>paragraf</p>
+                                <h3>İlk Basım Kitaplar</h3>
+                                <p>Tarih kokan ilk basım kitapları arayan hobiseverler!Doğru yerdesiniz.</p>
                                 <a href="#" class="btnDetails">Daha Çok Detay</a>
                             </div>
                         </div>
