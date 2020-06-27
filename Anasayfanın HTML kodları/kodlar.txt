@@ -1,0 +1,179 @@
+<!doctype html>
+
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Kitap Sitesi Oluşturma">
+        <meta name="author" content="Merve Ekinci">
+        <meta name="keywords" content="HTML, CSS, KİTAP">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        
+        <title>KİTAP -HOME</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">Kitap</a>
+                </div>
+                <div class="Menü">
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="kitap.html">Kitap</a></li>
+                        <li><a href="hakkında.html">Hakkında</a></li>
+                        <li><a href="iletişim.html">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Main section -->
+        
+        <section id="mainSlider" class="slider">
+            <div id="mainCaption" class="caption">
+                <h1>Kitaplara Ulaşmanın En Ucuz Yolu</h1>
+                <p>İster alın,ister satın</p>
+            </div>
+        </section>
+        
+        <!-- Feature section -->
+        
+        <section id="features" class="sectionArea">
+            <div class="featuresTop">
+                <h2 class="sectionHeader">Featured Service</h2>
+                <p>Yazı</p>
+            </div>
+            <div class="futeresBody">
+                <div class="container">
+                    <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="img/kitap1.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>Başlık</h3>
+                                <p>paragraf</p>
+                                <a href="#" class="btnDetails">Daha Çok Detay</a>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="img/kitap2.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>Başlık</h3>
+                                <p>paragraf</p>
+                                <a href="#" class="btnDetails">Daha Çok Detay</a>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="img/kitap3.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>Başlık</h3>
+                                <p>paragraf</p>
+                                <a href="#" class="btnDetails">Daha Çok Detay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- Parallax section -->
+        <section id="parallax" class="SectionArea">
+            <div class="ParallaxTop">
+                <h2 class="sectionHeader">Featured Service</h2>
+                <p>Yazı</p>
+            </div>
+        </section>
+        
+        <!-- Engine section -->
+        
+        <section id="engine" class="sectionArea">
+            <div class="engineTop">
+                <h2 class="sectionHeader">Featured Service</h2>
+                <p>Yazı</p>
+            </div>
+            <div class="engineBody">
+                <div class="container">
+                    <div class="col2">
+                        <div class="engineContainer">
+                            <img src="img/engine1.jpg" class="imageOver">
+                            <div class="engineOverlay">
+                                <div class="engineText">Resim Yazısı</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <div class="engineContainer">
+                            <img src="img/engine2.jpg" class="imageOver">
+                            <div class="engineOverlay">
+                                <div class="engineText">Resim Yazısı</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Engine section -->
+        
+        <footer class="sectionArea">
+            <div class="container">
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>SİTEMİZE HOŞGELDİNİZ</h3>
+                        <a href="index.html">Kitap Sitesi</a>
+                        <p>Yazı</p>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>LİNKLERİMİZ</h3>
+                        <ul class="footerLinks">
+                            <li><a href="index.html">ANASAYFA</a></li>
+                            <li><a href="kitap.html">Kitap</a></li>
+                            <li><a href="hakkında.html">HAKKINDA</a></li>
+                            <li><a href="iletişim.html">İLETİŞİM</a></li>
+                        </ul>
+                       
+                    </div>
+                </div>
+                   <div class="col3">
+                    <div class="footerItem">
+                        <h3>SOSYAL MEDYA</h3>
+                        <ul class="socialLinks">
+                            <li><a href="#"><i class="fa fa- twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa- facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa- linkedin"></i></a></li>
+                            
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
