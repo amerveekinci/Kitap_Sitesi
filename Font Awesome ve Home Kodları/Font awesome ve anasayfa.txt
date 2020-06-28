@@ -1,0 +1,181 @@
+<!doctype html>
+
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Kitap Sitesi Oluşturma">
+        <meta name="author" content="Merve Ekinci">
+        <meta name="keywords" content="HTML, CSS, KİTAP">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        
+        <title>KİTAP -HOME</title>
+        
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </div>
+                <div class="Menü">
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="kitap.html">Kitap</a></li>
+                        <li><a href="hakkında.html">Hakkında</a></li>
+                        <li><a href="iletişim.html">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Main section -->
+        
+        <section id="mainSlider" class="slider">
+            <div id="mainCaption" class="caption">
+                <h1>Kitaplara Ulaşmanın En Ucuz Yolu</h1>
+                <p>İster alın,ister satın</p>
+            </div>
+        </section>
+        
+        <!-- Feature section -->
+        
+        <section id="features" class="sectionArea">
+            <div class="featuresTop">
+                <h2 class="sectionHeader">Sayfamıza Hoşgeldiniz</h2>
+                <p>Bir kitapkurduysanız doğru yerdesiniz. Aradığınız her şeyi bulabileceksiniz.</p>
+            </div>
+            <div class="futeresBody">
+                <div class="container">
+                    <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="img/kitap1.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>Okuma Kitapları</h3>
+                                <p>İstediğiniz alanda okuma kitabı bulabilirsiniz.İster sıfır ister ikinci el.</p>
+                                <a href="#" class="btnDetails">Daha Çok Detay</a>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="img/kitap2.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>Ders Kitapları</h3>
+                                <p>Ders Kitaplarına çok fazla para vermeye artık gerek yok.Hem sıfır hem de 2.el kitapları bulabilirsiniz.</p>
+                                <a href="#" class="btnDetails">Daha Çok Detay</a>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="img/kitap3.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>İlk Basım Kitaplar</h3>
+                                <p>Tarih kokan ilk basım kitapları arayan hobiseverler!Doğru yerdesiniz.</p>
+                                <a href="#" class="btnDetails">Daha Çok Detay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- Parallax section -->
+        <section id="parallax" class="SectionArea">
+            <div class="ParallaxTop">
+                <h2 class="sectionHeader">Sayısız Kitap</h2>
+                <p>Evinizden bir kargo uzaklıkta kitapevi çeşitliğinde!</p>
+            </div>
+        </section>
+        
+        <!-- Engine section -->
+        
+        <section id="engine" class="sectionArea">
+            <div class="engineTop">
+                <h2 class="sectionHeader">Hiçbir Yerde Bulunmayan Kitaplar</h2>
+                <p>Eski Kitap severlerin koleksiyonlarını genişletebileceği adres</p>
+            </div>
+            <div class="engineBody">
+                <div class="container">
+                    <div class="col2">
+                        <div class="engineContainer">
+                            <img src="img/engine1.jpg" class="imageOver">
+                            <div class="engineOverlay">
+                                <div class="engineText">Akademik Hayatınız İçin</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <div class="engineContainer">
+                            <img src="img/engine2.jpg" class="imageOver">
+                            <div class="engineOverlay2">
+                                <div class="engineText">Günlük Hayatınız İçin</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer section -->
+        
+        <footer class="sectionArea">
+            <div class="container">
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>SİTEMİZE HOŞGELDİNİZ</h3>
+                        <a href="index.html"><img src="img/logo2.png"></a>
+                        <p>Tüm kitapseverlerin buluştuğu adres. İster alın ister satın,ister koleksiyon yapın.</p>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>LİNKLERİMİZ</h3>
+                        <ul class="footerLinks">
+                            <li><a href="index.html">ANASAYFA</a></li>
+                            <li><a href="kitap.html">Kitap</a></li>
+                            <li><a href="hakkında.html">HAKKINDA</a></li>
+                            <li><a href="iletişim.html">İLETİŞİM</a></li>
+                        </ul>
+                       
+                    </div>
+                </div>
+                   <div class="col3">
+                    <div class="footerItem">
+                        <h3>SOSYAL MEDYA</h3>
+                        <ul class="socialLinks">
+                            <li><a href="#"><i class="fa fa- twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa- facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa- linkedin"></i></a></li>
+                            
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
