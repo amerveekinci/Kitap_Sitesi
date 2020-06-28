@@ -1,0 +1,198 @@
+<!doctype html>
+
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Kitap Sitesi Oluşturma">
+        <meta name="author" content="Merve Ekinci">
+        <meta name="keywords" content="HTML, CSS, KİTAP">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        
+        <title>KİTAP -Kitap</title>
+        
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </div>
+                <div class="Menü">
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="kitap.html">Kitap</a></li>
+                        <li><a href="hakkında.html">Hakkında</a></li>
+                        <li><a href="iletişim.html">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Main section -->
+        
+        <section id="kitapSlider" class="slider">
+            <div id="kitapCaption" class="caption">
+                <h1>Kitaplar</h1>
+                <p>İster alın,ister satın</p>
+            </div>
+        </section>
+        
+        <!-- Inspect section -->
+        
+        <section id="inspect" class="sectionArea">
+            
+            <div class="inspectTop">
+                
+                <h2 class="sectionHeader">Kitapkurtları Buraya</h2>
+                <p>Okumayı hayat tarzı edinen herkesin mutlu olduğu yer.</p>
+            
+          </div>
+            <div class="inspectBody">
+                <div class="container">
+                    <div class="col2">
+                        <div class="inspectIMage">
+                            <img src="img/kitap1.jpg">
+                        </div>
+                        <div class="inspectText">
+                            <p class="date">21 Ağustos, 2022</p>
+                            <h4>Okuma Kitapları</h4>
+                            <p>En güzel romanlar, kişisel gelişim, aksiyon, macera ve daha fazlası sitemizde</p>
+                            <a href="#">Daha Çok Detay</a>
+                        </div>
+                    </div>
+                     <div class="col2">
+                        <div class="inspectIMage">
+                            <img src="img/kitap2.jpg">
+                        </div>
+                        <div class="inspectText">
+                            <p class="date">21 Ağustos, 2022</p>
+                            <h4>Ders Kitapaları</h4>
+                            <p>Derslerinize yardımcı olabilecek ek kitapları ister sıfır ister ikinci el alın.</p>
+                            <a href="#">Daha Çok Detay</a>
+                        </div>
+                    </div>
+                </div>
+                
+                 <div class="container">
+                    <div class="col2">
+                        <div class="inspectIMage">
+                            <img src="img/kitap3.jpg">
+                        </div>
+                        <div class="inspectText">
+                            <p class="date">21 Ağustos, 2022</p>
+                            <h4>Vintage Kitaplar</h4>
+                            <p>Koleksiyonuzu genişletmeye ne dersiniz?</p>
+                            <a href="#">Daha Çok Detay</a>
+                        </div>
+                    </div>
+                     <div class="col2">
+                        <div class="inspectIMage">
+                            <img src="img/kitap4.jpg">
+                        </div>
+                        <div class="inspectText">
+                            <p class="date">21 Ağustos, 2022</p>
+                            <h4>Para Kazanın</h4>
+                            <p>Kitaplarınızı satıp daha güzel kitaplar almanın veya hayallerinize ulaşmanın vakti çoktan geldi. </p>
+                            <a href="#">Daha Çok Detay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        
+        <!-- ProjectX section -->
+        
+        <section id="projectx" class="sectionArea">
+            
+            <div class="projectXTop">
+                <h2 class="sectionHeader">Projelerimiz</h2>
+                <p>Bağışlanan binlerce kitap ihtiyaç sahiplerine ulaştırılıyor.</p>
+            
+            </div>
+            <div class="projectXBody">
+                <div class="containerFluid">
+                    <div class="captionPX">
+                        <div class="col2">
+                            <div class="projectXInfo"></div>
+                            <h4 class="projectXTitle">Herkese Kitap</h4>
+                            <p class="projectXText">Kitaplarını bağışlayarak sen de ihtiyacı olan birine yardım edebilirsin. Üstelik kitap arkadaşı bile olabilirsin.</p>
+                            <button type="button" class="projectXBTN">Daha Çok Gör</button>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <div class="projectXHighlight">
+                            <ul class="projectXDetail">
+                                <li>Kitap Konusu</li>
+                                <li>Basım Yılı</li>
+                                <li>Yayınevi</li>
+                                <li>Müşteri</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+                
+        </section>
+        
+       
+        <!-- Footer section -->
+        
+        <footer class="sectionArea">
+            <div class="container">
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>SİTEMİZE HOŞGELDİNİZ</h3>
+                        <a href="index.html"><img src="img/logo2.png"></a>
+                        <p>Tüm kitapseverlerin buluştuğu adres. İster alın ister satın,ister koleksiyon yapın.</p>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>LİNKLERİMİZ</h3>
+                        <ul class="footerLinks">
+                            <li><a href="index.html">ANASAYFA</a></li>
+                            <li><a href="kitap.html">Kitap</a></li>
+                            <li><a href="hakkında.html">HAKKINDA</a></li>
+                            <li><a href="iletişim.html">İLETİŞİM</a></li>
+                        </ul>
+                       
+                    </div>
+                </div>
+                   <div class="col3">
+                    <div class="footerItem">
+                        <h3>SOSYAL MEDYA</h3>
+                        <ul class="socialLinks">
+                            <li><a href="#"><i class="fa fa- twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa- facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa- linkedin"></i></a></li>
+                            
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
