@@ -1,0 +1,226 @@
+<!doctype html>
+
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Kitap Sitesi Oluşturma">
+        <meta name="author" content="Merve Ekinci">
+        <meta name="keywords" content="HTML, CSS, KİTAP">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        
+        <title>KİTAP -Hakkında</title>
+        
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </div>
+                <div class="Menü">
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="kitap.html">Kitap</a></li>
+                        <li><a href="hakkında.html">Hakkında</a></li>
+                        <li><a href="iletişim.html">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Main section -->
+        
+        <section id="hakkındaSlider" class="slider">
+            <div id="hakkındaCaption" class="caption">
+                <h1>HAKKINDA</h1>
+                <p>İster alın,ister satın</p>
+            </div>
+        </section>
+        
+        <!-- TARİHÇEMİZ section -->
+        
+        <section id="tarihçemiz" class="sectionArea">
+            
+            <div class="tarihçemizTop">
+                
+                <h2 class="sectionHeader">TARİHÇEMİZ</h2>
+                <p>Okumayı hayat tarzı edinen herkesin mutlu olduğu yer.</p>
+            
+          </div>
+            <div class="tarihçemizBody">
+                <div class="containerFluid">
+                    <div class="col2">
+                        <div class="tarihçemizDate">
+                            <p>2000</p>
+                        </div>
+                        <div class="tarihçemizImage">
+                            <img src="img/kitap1.jpg">
+                        </div>
+                        <div class="tarihçemizText">
+                            <p>Kitaplara ulaşmanın bile çok zor olduğu zamanlar</p>
+                        </div>
+                    </div>
+                       <div class="col2">
+                        <div class="tarihçemizDate">
+                            <p>2005</p>
+                        </div>
+                        <div class="tarihçemizImage">
+                            <img src="img/kitap1.jpg">
+                        </div>
+                        <div class="tarihçemizText">
+                            <p>Kitaplarımızı dostlarımızla buluşturmanın adımlarını atmaya başladık.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="containerFluid">
+                    <div class="col2">
+                        <div class="tarihçemizDate">
+                            <p>2015</p>
+                        </div>
+                        <div class="tarihçemizImage">
+                            <img src="img/kitap1.jpg">
+                        </div>
+                        <div class="tarihçemizText">
+                            <p>Artık ucuza kitap bulmak, satın almak hatta satmak çok kolay. Hem de bütün haklarınız koruma altında.</p>
+                        </div>
+                    </div>
+                       <div class="col2">
+                        <div class="tarihçemizDate">
+                            <p>2020</p>
+                        </div>
+                        <div class="tarihçemizImage">
+                            <img src="img/kitap1.jpg">
+                        </div>
+                        <div class="tarihçemizText">
+                            <p>Hem kitap alabilir hem satabilirs,n. koleksiyonun genişlerken yardım projelerimize de katılman mümkün.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    
+        </section>
+        
+        
+        <!-- Ekibimiz section -->
+        
+        <section id="team" class="sectionArea">
+              <div class="teamTop">
+                
+                <h2 class="sectionHeader">EKİBİMİZ</h2>
+                <p>Okumayı hayat tarzı edinen herkesin mutlu olduğu yer.</p>
+            
+          </div>
+            <div class="teamBody">
+                <div class="containerFluid">
+                    <div class="col3">
+                        <div class="teamMember">
+                            <img src="img/ceo.jpg" class="teamMemberImage">
+                            <div class="teamMemberInfo">
+                                <h5>Merve Ekinci</h5>
+                                <ul class="memberSocialLinks">
+                                    <li><a href="#"><i class="fa fa-twitter"></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></a></li>   
+                                </ul>
+                            </div>
+                            <div class="teamMemberOverlay">
+                                <div class="teamTitle">CEO</div>
+                            </div>
+                        </div>
+                    </div>
+                         <div class="col3">
+                        <div class="teamMember">
+                            <img src="img/edit%C3%B6r.jpg" class="teamMemberImage">
+                            <div class="teamMemberInfo">
+                                <h5>Selin Dönmez</h5>
+                                <ul class="memberSocialLinks">
+                                    <li><a href="#"><i class="fa fa-twitter"></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></a></li>   
+                                </ul>
+                            </div>
+                            <div class="teamMemberOverlay">
+                                <div class="teamTitle">EDİTÖR</div>
+                            </div>
+                        </div>
+                    </div>
+                         <div class="col3">
+                        <div class="teamMember">
+                            <img src="img/bilgii%C5%9Flem.jpg" class="teamMemberImage">
+                            <div class="teamMemberInfo">
+                                <h5>Arzu Kızmaz</h5>
+                                <ul class="memberSocialLinks">
+                                    <li><a href="#"><i class="fa fa-twitter"></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></a></li>   
+                                </ul>
+                            </div>
+                            <div class="teamMemberOverlay">
+                                <div class="teamTitle">BİLGİ İŞLEM UZMANI</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+       
+        <!-- Footer section -->
+        
+        <footer class="sectionArea">
+            <div class="container">
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>SİTEMİZE HOŞGELDİNİZ</h3>
+                        <a href="index.html"><img src="img/logo2.png"></a>
+                        <p>Tüm kitapseverlerin buluştuğu adres. İster alın ister satın,ister koleksiyon yapın.</p>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>LİNKLERİMİZ</h3>
+                        <ul class="footerLinks">
+                            <li><a href="index.html">ANASAYFA</a></li>
+                            <li><a href="kitap.html">Kitap</a></li>
+                            <li><a href="hakkında.html">HAKKINDA</a></li>
+                            <li><a href="iletişim.html">İLETİŞİM</a></li>
+                        </ul>
+                       
+                    </div>
+                </div>
+                   <div class="col3">
+                    <div class="footerItem">
+                        <h3>SOSYAL MEDYA</h3>
+                        <ul class="socialLinks">
+                            <li><a href="#"><i class="fa fa- twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa- facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa- linkedin"></i></a></li>
+                            
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
