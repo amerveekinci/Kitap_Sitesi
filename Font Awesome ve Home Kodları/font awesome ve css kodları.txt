@@ -297,6 +297,93 @@ header .logo img{
     left: 
 }
 
+footer {
+    
+    background: #500D16;
+    text-align: center;
+}
+
+.footerItem {
+    
+    padding: 20px;
+}
+.footerItem img{
+    height: 50px;
+    opacity: .5;
+}
+
+footer h3{
+    
+    color: #fff;
+    font-size: 18px;
+    left: 2px;
+    margin-bottom: 10px;
+}
+
+footer .fa{
+    font-size: 30px;
+    color: #95a5a6;
+    line-height: 50px;
+    transition: .3 ease;
+}
+
+footer .fa:hover{
+    
+    color: #fff;
+}
+
+footer p{
+    
+    color: #95a5a6;
+    line-height: 20px;
+    
+    
+    
+}
+
+.footerLinks a {
+    
+    text-decoration: none;
+    color: #95a5a6;
+    letter-spacing: 2px;
+    transition: .3 ease;
+}
+
+.footerLinks a:hover{
+    color: #fff;
+    text-decoration: underline; 
+}
+
+.socialLinks li{
+    
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
